@@ -1,14 +1,14 @@
-# "Black Hole" a Template for a Optimal HPC SAT Solver
+# "Black Hole" a (API) Template for a Optimal HPC SAT Solver
 
 #### Features:
 
 - Optimal Memory Usage, for the CNF formula exist +L and -L pointers to positive literals and negative literals, then the clauses point to this structures.
 
-- Space Modification, the entire estructure of CNF formula can be changes modifying +L and -L coordinadamente, obtaining a new formula equivalent to the first.
+- Space Modification, the entire estructure of CNF formula can be changes modifying +L and -L coordinately, obtaining a new formula equivalent to the first.
 
 - The solution assignment is converted from the Modified space to the original Formula automatically.
 
-- Include a very simple SAT solver, https://github.com/maxtuno/quark_sat a QuarkSAT implementation, as a simple example.
+- Include a very simple SAT solver, https://github.com/maxtuno/quark_sat a QuarkSAT implementation, as a example.
 
 ### To build:
 
